@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>freeaichat.bot</title>
+    <meta
+      name="description"
+      content="A friendly AI chatbot that answers your visitors and turns them into leads -- free."
+    />
+    <script>
+      (function () {
+        var repoBase = "/app-test-christine";
+        var path = window.location.pathname;
+        if (path.indexOf(repoBase + "/") === 0) {
+          window.history.replaceState(null, "", repoBase + "/" + path.slice(repoBase.length + 1));
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="assets/styles-DfI4hTon.css" />
+    <script type="module" async src="assets/index-BjvlgFPe.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
